@@ -1,0 +1,58 @@
+*{ /* Quando busco por * quero que esses comando afetem toda a pagina html */
+    margin: 0; /*Na linha 2 e 3 estou declarando para que todas os elementos não tenham padding nem margin automaticamente caso eu queira tenho que colocar manualmente */
+    padding: 0;
+}
+body{ /* Dando valor a tudo que tiver dentro do Body */
+    text-align: center; /* Todos texto/imagens ao centro */
+}
+#main{ /* Puxando a div declarada como main e a estilizando */
+    width: 626px; /* Dando largura a div */
+    height: 486px; /* Dando altura a div */
+    margin: 64px auto 64px; /* Declarando que a div main esteja 64px de distancia do topo da pagina e as laterais seja automatico e cada lateral tenha o mesmo valor então ela irá ficar no centro */
+}
+#main img{
+    margin-bottom: 32px; /* Declarando que a imagem tera uma distancia do elemento de baixo de 32px */
+}
+#main h1{ /* Puxando a div declarada como main e puxando junto a h1 e a estilizando */
+    font-family: 'Dosis', sans-serif; /* Definindo que a fonte sera Dosis que foi a importada na linha 4, 5 e 6 do arquivo html */
+    color: #3F3D56; /* Definindo a cor da fonte */
+    font-size: 32px; /* Definindo tamanho da fonte como 32px */
+    font-weight: normal; /* Largura da fonte normal */
+    margin-bottom: 16px; /* Declarando que o h1 tera uma distancia do elemento de baixo de 16px */
+}
+#main h1 span{ /* Puxando a div declarada como main e puxando junto a h1 e o atributo span e o estilizando */
+    color: #EE24FF; /* Definindo a cor da fonte do span */
+    font-weight: bold; /* Largura da fonte bold */
+}
+#main p{ /* Puxando a div declarada como main e puxando junto a paragrafo e a estilizando */
+    color: #828282;  /* Definindo a cor da fonte */
+    font-family: 'Open Sans', sans-serif; /* Definindo qual a fonte do paragrafo */
+    font-size: 15px; /* Definindo tamanho da fonte como 15px */
+    line-height: 22px; /* Altura da linha de 22px*/
+}
+#main p span{ /* Puxando a div declarada como main e puxando junto a paragrafo e o atributo span e o estilizando */
+    font-weight: bold; /* Largura da fonte bold */
+    color: #3F3D56; /* Definindo a cor da fonte do span */
+}
+.line{ /* Puxando a div com a classe line pasa fazer a criação da linha */
+    border: 1px solid #ECEFF2; /* Criando uma borda de 1px solida com sua respectiva cor */
+    width: 391px; /* Declarando sua largura */
+    height: 0; /* Declarando sua altura */
+    margin: 0 auto 16px; /* Colocando a linha no meio e declarando 16px de margin bottom */
+}
+#footer a{ /* Chamando a div declarada como footer e chamando so o elemento a e o estilizando */
+    text-decoration: none; /* Fazendo que o elemento a não tenha nem uma decoration que seria a linha abaixo */
+    color: #3F3D56; /* Definindo a cor da fonte */
+    font-family: 'Open Sans', sans-serif; /* Definindo qual a fonte do paragrafo */
+    font-weight: bold; /* Largura da fonte bold */
+}
+a + a{ /* Essa declaração significa que comecara de tras para frente então sera primeiro o a de contato depois o de ofertas e o ultimo destino entao voce ira usar o segundo a que seria ofertas o nome do operador é  seletor de irmão adjacente ou seletor de irmão imediato */
+    margin-left: 42px; /* Definindo que o margin left sera de 42px comecando do ultimo para o primeiro sem colocar o margin left no primeiro */
+}
+.onda{ /* Puxando a imagem da onda */
+    position: fixed; /* Declarando ela como fixa na tela */
+    bottom: 0; /* Falando para ela ficar na parte inferior da tela colado */
+    left: 0; /* Ficar colada na parte esquerda da tela */
+    width: 100%; /* Tamanho de 100% da tela */
+    height: 104px; /* Declarando a altura */
+}
